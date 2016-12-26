@@ -1,0 +1,229 @@
+.zoom-viewport .container {
+	width: 1172px;
+	margin: auto;
+	border: 1px solid black;
+	position: relative;
+}
+.zoom-viewport a#prev,
+.zoom-viewport a#next{
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+}
+.zoom-viewport a#next {
+	right: -5rem;
+	top: 44%;
+}
+.zoom-viewport a#prev {
+	left: -5rem;
+	top: 44%;
+}
+.zoom-viewport .download-file,
+.zoom-viewport .zoom-view {
+	display: inline-block;
+	position: absolute;
+}
+.zoom-viewport .zoom-view {
+	top: 0;
+	right: -3rem;
+}
+.zoom-viewport .download-file {
+	top: 3rem;
+	right: -3rem;
+}
+
+
+
+
+img {
+	overflow: hidden;
+}
+
+#next i.fa-stack,
+#prev i.fa-stack {
+	font-size: 5rem;
+	color: white;
+	background-color: black;
+	width: 1em;
+    height: 1em;
+    line-height: 1em;
+}
+
+#flipbook {
+	margin: auto;
+	overflow: hidden!important;
+}
+#flipbook>div,
+#flipbook>div>img,
+#flipbook {
+	overflow: hidden;
+	/*position: relative;*/
+}
+
+/*.mfp-preloader {
+  width: 30px;
+  height: 30px;
+  background-color: #FFF;
+  opacity: 0.65;
+  margin: 0 auto;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+  0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg) }
+  50% { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) }
+  100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg) }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.flip-control {
+	text-align: center;
+}*/
+
+/*.zoom-viewport .container{
+    position:absolute;
+    top:367px;
+    left:568px;
+    width:1136px;
+    height:734px;
+    margin:auto;
+}
+
+.zoom-viewport .magazine{
+    width:1136px;
+    height:734px;
+    left:-568px;
+    top:-367px;
+}*/
+
+/* Important: the image size must be set to 100%.
+ *  Otherwise the position of the images would be messed up upon zooming.
+ */
+/*.magazine img{
+    width:100%;
+    height:100%;
+}*/
+
+
+
+
+
+
+
+
+/*div.flip-control {
+    width: 400px;
+    text-align: center;
+}*/
+
+/*div.flip-control a {
+    margin-left: 10px;
+}*/
+
+
+
+
+
+/*#flipbook>div:first-child {
+    background-image: url(page1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    background-position: center;
+}
+
+#flipbook>div:nth-child(2) {
+	background-image: url('page1.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    background-position: center;
+}*/
+
+/** {
+	box-sizing: border-box;*/
+	/*overflow:hidden;*/
+/*}*/
+
+/*#flipbook {
+	width: 1172px;
+	height: 800px;
+}*/
+
+/*#flipbook .page {
+	width: 586px;
+	height: 800px;
+}*/
+
+/*body{
+    overflow:hidden;
+}*/
+
+/*#flipbook{
+    width:400px;
+    height:300px;
+}*/
+/*#flipbook > img {
+	display: inline-block;
+}*/
+
+/*#flipbook .page{
+    width:1172px;
+    height:800px;
+    background-color:white;
+    line-height:300px;
+    font-size:20px;
+    text-align:center;
+}*/
+
+/*#flipbook .page-wrapper{
+    -webkit-perspective:5000px;
+    -moz-perspective:5000px;
+    -ms-perspective:5000px;
+    -o-perspective:5000px;
+    perspective:5000px;
+}*/
+
+/*#flipbook{
+  -webkit-transition:margin-left 0.2s ease-in-out;
+  -moz-transition:margin-left 0.2s ease-in-out;
+  -o-transition:margin-left 0.2s ease-in-out;
+  -ms-transition:margin-left 0.2s ease-in-out;
+  transition:margin-left 0.2s ease-in-out;
+}*/
